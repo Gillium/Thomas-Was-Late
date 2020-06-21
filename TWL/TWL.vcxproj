@@ -144,7 +144,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="TextureHolder.cpp" />
     <ClCompile Include="TWL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureHolder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
