@@ -54,7 +54,7 @@ private:
 
 	// Private functions for internal use only
 	void input();
-	void update();
+	void update(float dtAsSeconds);
 	void draw();
 public:
 	// The Engine constructor
