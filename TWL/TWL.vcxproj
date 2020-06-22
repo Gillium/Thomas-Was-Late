@@ -144,6 +144,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Engine.cpp" />
     <ClCompile Include="TextureHolder.cpp" />
     <ClCompile Include="TWL.cpp" />
   </ItemGroup>
