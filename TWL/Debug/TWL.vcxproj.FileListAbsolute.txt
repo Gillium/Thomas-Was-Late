@@ -1,0 +1,2 @@
+D:\VS Projects\Thomas-Was-Late\TWL\Debug\TWL.exe
+D:\VS Projects\Thomas-Was-Late\TWL\Debug\TWL.pdb
