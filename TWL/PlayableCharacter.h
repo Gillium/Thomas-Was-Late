@@ -74,7 +74,7 @@ public:
 	void stopJump();
 
 	// Where is the center of the character
-	Vector2f getCenter;
+	Vector2f getCenter();
 
 	// We will call this function once every frame
 	void update(float elapsedTime);
