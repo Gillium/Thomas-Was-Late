@@ -148,7 +148,7 @@
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="TextureHolder.cpp" />
-    <ClCompile Include="TWL.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Update.cpp" />
   </ItemGroup>
   <ItemGroup>
