@@ -47,5 +47,8 @@
     <ClInclude Include="PlayableCharacter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Thomas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
