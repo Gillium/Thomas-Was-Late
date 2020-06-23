@@ -150,6 +150,7 @@
     <ClCompile Include="PlayableCharacter.cpp" />
     <ClCompile Include="TextureHolder.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Thomas.cpp" />
     <ClCompile Include="Update.cpp" />
   </ItemGroup>
   <ItemGroup>
