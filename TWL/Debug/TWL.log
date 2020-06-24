@@ -53,6 +53,12 @@ D:\VS Projects\Thomas-Was-Late\TWL\Engine.cpp(11,38): warning C4244: 'argument':
           [
               T=float
           ]
+  HUD.cpp
+D:\VS Projects\Thomas-Was-Late\TWL\HUD.cpp(29,38): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
   Input.cpp
   LoadLevel.cpp
 D:\VS Projects\Thomas-Was-Late\TWL\LoadLevel.cpp(25,42): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
@@ -109,7 +115,6 @@ D:\VS Projects\Thomas-Was-Late\TWL\PopulateEmitters.cpp(35,41): warning C4244: '
           [
               T=float
           ]
-  SoundManager.cpp
   Main.cpp
   Update.cpp
   Generating Code...
