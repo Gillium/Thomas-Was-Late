@@ -93,3 +93,27 @@ void SoundManager::playFire(Vector2f emitterLocation, Vector2f listenerLocation)
 		m_NextSound = 1;
 	}
 }
+
+void SoundManager::playFallInFire()
+{
+	m_FallInFireSound.setRelativeToListener(true);
+	m_FallInFireSound.play();
+}
+
+void SoundManager::playFallInWater()
+{
+	m_FallInWaterSound.setRelativeToListener(true);
+	m_FallInWaterSound.play();
+}
+
+void SoundManager::playJump()
+{
+	m_JumpSound.setRelativeToListener(true);
+	m_JumpSound.play();
+}
+
+void SoundManager::playReachGoal()
+{
+	m_ReachGoalSound.setRelativeToListener(true);
+	m_ReachGoalSound.play();
+}
