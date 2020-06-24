@@ -148,6 +148,7 @@
     <ClCompile Include="DetectCollisions.cpp" />
     <ClCompile Include="Draw.cpp" />
     <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="HUD.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="LoadLevel.cpp" />
