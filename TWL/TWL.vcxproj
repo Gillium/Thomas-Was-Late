@@ -162,6 +162,7 @@
   <ItemGroup>
     <ClInclude Include="Bob.h" />
     <ClInclude Include="Engine.h" />
+    <ClInclude Include="HUD.h" />
     <ClInclude Include="LevelManager.h" />
     <ClInclude Include="PlayableCharacter.h" />
     <ClInclude Include="SoundManager.h" />
