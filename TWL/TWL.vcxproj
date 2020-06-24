@@ -162,6 +162,7 @@
     <ClInclude Include="Engine.h" />
     <ClInclude Include="LevelManager.h" />
     <ClInclude Include="PlayableCharacter.h" />
+    <ClInclude Include="SoundManager.h" />
     <ClInclude Include="TextureHolder.h" />
     <ClInclude Include="Thomas.h" />
   </ItemGroup>
