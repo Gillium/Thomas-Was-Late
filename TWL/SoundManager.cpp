@@ -42,3 +42,54 @@ SoundManager::SoundManager()
 	m_Fire2Sound.setLoop(true);
 	m_Fire3Sound.setLoop(true);
 }
+
+void SoundManager::playFire(Vector2f emitterLocation, Vector2f listenerLocation)
+{
+	// Where is the listener? Thomas.
+	Listener::setPosition(listenerLocation.x, listenerLocation.y, 0.0f);
+
+	switch (m_NextSound)
+	{
+	case 1:
+		// Locate/move the source of the sound
+		m_Fire1Sound.setPosition(emitterLocation.x, emitterLocation.y, 0.0f);
+
+		if (m_Fire1Sound.getStatus() == Sound::Status::Stopped)
+		{
+			// Play the sound, if its not already
+			m_Fire1Sound.play();
+		}
+		break;
+
+	case 2:
+		// Do the same as previous for the second sound
+		m_Fire2Sound.setPosition(emitterLocation.x, emitterLocation.y, 0.0f);
+
+		if (m_Fire2Sound.getStatus() == Sound::Status::Stopped)
+		{
+			// Play the sound, if its not already
+			m_Fire2Sound.play();
+		}
+		break;
+
+	case 3:
+		// Do the same as previous for the third sound
+		m_Fire3Sound.setPosition(emitterLocation.x, emitterLocation.y, 0.0f);
+
+		if (m_Fire3Sound.getStatus() == Sound::Status::Stopped)
+		{
+			// Play the sound, if its not already
+			m_Fire3Sound.play();
+		}
+		break;
+	}
+
+	// Increment to the next fire sound
+	m_NextSound++;
+
+	// Go back to 1 when the third sound has been started
+	if (m_NextSound > 3)
+	{
+		m_NextSound = 1;
+	}
+}
