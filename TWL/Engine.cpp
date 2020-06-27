@@ -23,6 +23,19 @@ Engine::Engine()
 
 	m_BGRightView.setViewport(FloatRect(0.5f, 0.001f, 0.499f, 0.998f));
 
+	// Can this graphics card use shaders?
+	if (!sf::Shader::isAvailable())
+	{
+		// Time to get a new PC
+		// Or remove all the shader related code :(
+		m_Window.close();
+	}
+	else
+	{
+		// Load two shaders (1 vertex, i fragment)
+		m_RippleShader.loadFromFile("shaders/vertShader.vert", "shaders/rippleShader.frag");
+	}
+
 	m_BackgroundTexture = TextureHolder::GetTexture("graphics/background.png");
 
 	// Associate the sprite with the texture
