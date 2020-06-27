@@ -53,16 +53,13 @@ D:\VS Projects\Thomas-Was-Late\TWL\Engine.cpp(11,38): warning C4244: 'argument':
           [
               T=float
           ]
-  HUD.cpp
-D:\VS Projects\Thomas-Was-Late\TWL\HUD.cpp(29,38): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
   Input.cpp
   LoadLevel.cpp
 D:\VS Projects\Thomas-Was-Late\TWL\LoadLevel.cpp(25,42): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
 D:\VS Projects\Thomas-Was-Late\TWL\LoadLevel.cpp(26,39): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  Particle.cpp
+  ParticleSystem.cpp
+D:\VS Projects\Thomas-Was-Late\TWL\ParticleSystem.cpp(16,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   PopulateEmitters.cpp
 D:\VS Projects\Thomas-Was-Late\TWL\PopulateEmitters.cpp(9,22): warning C4834: discarding return value of function with 'nodiscard' attribute
 D:\VS Projects\Thomas-Was-Late\TWL\PopulateEmitters.cpp(24,61): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
