@@ -153,6 +153,7 @@
     <ClCompile Include="LevelManager.cpp" />
     <ClCompile Include="LoadLevel.cpp" />
     <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
     <ClCompile Include="PlayableCharacter.cpp" />
     <ClCompile Include="PopulateEmitters.cpp" />
     <ClCompile Include="SoundManager.cpp" />
